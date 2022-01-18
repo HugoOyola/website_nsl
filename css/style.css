@@ -1,0 +1,230 @@
+@font-face {
+  font-family: Archia;
+  src: url(../fonts/Archia-Regular.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: ArchiaBold;
+  src: url(../fonts/Archia-Bold.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+  --black: #0000;
+  --white: #ffffff;
+  --red20: #e42229;
+  --red10: #9f1217;
+  --yellow20: #ffba00;
+  --yellow10: #cb7c05;
+  --gray40: #e5e5e5;
+  --gray30: #d4d3d6;
+  --gray20: #9e9e9f;
+  --gray10: #7b7b7b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Archia", sans-serif;
+  background: var(--white);
+}
+
+h2 {
+  font-family: "ArchiaBold", sans-serif;
+  font-size: 32px;
+  color: var(--red10);
+}
+
+p {
+  color: var(--gray10);
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.wrapper {
+  max-inline-size: 1059px;
+  margin: auto;
+}
+
+/* SOCIAL MEDIA - SLOGAN */
+.social-media-content {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-content li {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.social {
+  margin: 14px 0 14px 0;
+}
+
+.social a {
+  padding-right: 21px;
+  color: var(--red20);
+}
+
+.social a:hover {
+  color: var(--red10);
+}
+
+.slogan {
+  font-size: 18px;
+}
+
+/* HEADER */
+.header {
+  background-color: var(--red20);
+  position: sticky;
+  top: 0;
+  height: 68px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.menu-items li {
+  list-style: none;
+}
+
+.menu-items a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 20px;
+}
+
+.menu-items a:hover {
+  color: black;
+  background-color: var(--yellow20);
+  padding: 20px;
+}
+
+.active {
+  color: black;
+  background-color: var(--yellow20);
+  padding: 20px;
+}
+
+/* SECTION 01 */
+
+.slide {
+  background: url(../images/estudiante_fondo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.items {
+  display: flex;
+  height: 540px;
+}
+
+.slide-content {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-family: "ArchiaBold", sans-serif;
+  width: 564px;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 70px;
+  color: var(--white);
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* SECTION 02 */
+.niveles-content {
+  display: flex;
+  text-align: center;
+}
+
+.box-inicial {
+  background: var(--yellow20);
+  height: 209px;
+  width: 33.33%;
+  border-bottom-left-radius: 50px;
+}
+
+.box-inicial img {
+  padding-top: 24px;
+}
+
+.box-inicial p {
+  font-family: "ArchiaBold", sans-serif;
+  font-size: 30px;
+  padding-top: 10px;
+  color: var(--yellow10);
+}
+
+.box-primaria {
+  background: var(--red20);
+  height: 209px;
+  width: 33.33%;
+}
+
+.box-primaria img {
+  padding-top: 24px;
+}
+
+.box-primaria p {
+  font-family: "ArchiaBold", sans-serif;
+  font-size: 30px;
+  padding-top: 10px;
+  color: var(--red10);
+}
+
+.box-secundaria {
+  background: var(--gray30);
+  height: 209px;
+  width: 33.33%;
+  border-bottom-right-radius: 50px;
+}
+
+.box-secundaria img {
+  padding-top: 24px;
+}
+
+.box-secundaria p {
+  font-family: "ArchiaBold", sans-serif;
+  font-size: 30px;
+  padding-top: 10px;
+  color: var(--gray20);
+}
+
+/* SECTION 03 */
+.about-content h2 {
+  padding-top: 58px;
+}
+
+.about-content p {
+  padding-top: 49px;
+}
