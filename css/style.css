@@ -379,3 +379,7 @@ nav ul {
 .cursos-content-items02 li::marker {
   font-size: 2rem;
 }
+
+.cursos-content-items02 li {
+  border-bottom: 1px solid var(--gray10);
+}
