@@ -350,3 +350,32 @@ nav ul {
 .banner-content-box03 p {
   color: #000;
 }
+
+/* SECTION 06 */
+.cursos-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cursos-content-items02 img {
+  padding-top: 70px;
+  padding-left: 87px;
+}
+
+.cursos-content-items02 h2 {
+  width: 298px;
+  padding-left: 87px;
+  font-size: 32px;
+}
+
+.cursos-content-items02 ul {
+  list-style: square url(../images/icon/check.svg) inside;
+  padding-top: 32px;
+  padding-left: 55px;
+  padding-bottom: 56px;
+  color: var(--gray10);
+}
+
+.cursos-content-items02 li::marker {
+  font-size: 2rem;
+}
