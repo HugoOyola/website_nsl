@@ -357,6 +357,22 @@ nav ul {
   flex-wrap: wrap;
 }
 
+.cursos-content-items01 {
+  background: url(../images/estudiante.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+}
+
+.cursos-content-items02 {
+  width: 50%;
+}
+
+.box-items02 {
+  width: 500px;
+}
+
 .cursos-content-items02 img {
   padding-top: 70px;
   padding-left: 87px;
@@ -372,6 +388,7 @@ nav ul {
   list-style: square url(../images/icon/check.svg) inside;
   padding-top: 32px;
   padding-left: 55px;
+  padding-right: 55px;
   padding-bottom: 56px;
   color: var(--gray10);
 }
@@ -382,4 +399,240 @@ nav ul {
 
 .cursos-content-items02 li {
   border-bottom: 1px solid var(--gray10);
+}
+
+/* SECTION 07 */
+.messages-content {
+  height: 503px;
+  display: flex;
+}
+
+.messages-box01 {
+  width: 50%;
+}
+
+.messages-box01-content {
+  width: 400px;
+  padding-left: 25%;
+}
+
+.messages-box01-content h3 {
+  font-size: 32px;
+  color: var(--red20);
+}
+
+.messages-box01-content .grado-comment {
+  font-size: 32px;
+  padding-top: 5px;
+  color: var(--gray10);
+}
+
+.messages-box01 img {
+  padding-top: 56px;
+  padding-bottom: 30px;
+}
+
+.messages-box01 p {
+  font-size: 16px;
+}
+
+.comment {
+  width: 358px;
+
+  padding-bottom: 94px;
+}
+
+.messages-box02 {
+  width: 50%;
+}
+
+.imagen-slider {
+  height: 445px;
+  background: url(../images/estudiante02.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.grado-content {
+  display: flex;
+  height: 58px;
+}
+
+.grado-content-box01 {
+  background: var(--yellow20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  height: 100%;
+}
+
+.grado-content-box01 p {
+  color: #000;
+  font-size: 24px;
+}
+
+.grado-content-box02 {
+  background: var(--red20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+}
+
+.grado-content-box02 p {
+  color: var(--white);
+  font-size: 24px;
+}
+
+.grado-content-box03 {
+  background: var(--gray30);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+}
+
+.grado-content-box03 p {
+  color: #000;
+  font-size: 24px;
+}
+
+/* SECTION 08 */
+.college {
+  height: 433px;
+  background: var(--red20);
+}
+
+.row-college {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 61px;
+}
+
+.box-logo {
+  padding-right: 57px;
+}
+
+.row-college .description-college {
+  font-size: 32px;
+  color: var(--white);
+  padding-top: 36px;
+}
+
+.box-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--red10);
+  border-radius: 10px;
+  text-align: center;
+  width: 236px;
+  height: 324px;
+}
+
+.box-items img {
+  padding-top: 36px;
+}
+
+.box-items .number {
+  color: var(--white);
+  font-family: "ArchiaBold", sans-serif;
+  font-size: 48px;
+  padding-top: 20px;
+}
+
+.box-items .tittle {
+  color: var(--white);
+  font-family: "ArchiaBold", sans-serif;
+  font-size: 18px;
+  padding-top: 18px;
+  font-weight: 600;
+  width: 180px;
+}
+
+.box-items .description {
+  color: var(--white);
+  font-size: 12px;
+  padding-top: 23px;
+  line-height: 15px;
+  width: 161px;
+}
+
+/* SECTION 09 */
+.events {
+  height: 509px;
+}
+
+.events-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 93px;
+}
+
+.row-events .subtittle {
+  width: 253px;
+  padding-top: 16px;
+}
+
+.row-events .button {
+  padding-top: 40px;
+}
+
+.row-events .details-events {
+  padding-top: 40px;
+}
+
+.row-events a {
+  text-decoration: none;
+  font-family: "ArchiaBold", sans-serif;
+  background-color: var(--red20);
+  padding: 8px 15px;
+  border-radius: 50px;
+  color: var(--white);
+}
+
+.row-events a:hover {
+  text-decoration: none;
+  font-family: "ArchiaBold", sans-serif;
+  background-color: var(--red10);
+  padding: 8px 15px;
+  border-radius: 50px;
+  color: var(--white);
+}
+.row-events h3 {
+  color: var(--red20);
+  padding-top: 19px;
+  font-family: "ArchiaBold", sans-serif;
+}
+
+.row-events .details-events {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 0;
+}
+
+.details-events i {
+  color: var(--yellow20);
+  font-weight: 600;
+  padding-right: 7px;
+  padding-bottom: 9px;
+}
+
+.btn-event {
+  padding-top: 8px;
+}
+
+.btn-event a {
+  padding: 8px 16px;
+  border: 2px solid var(--red20);
+  background: var(--white);
+  color: var(--red20);
+}
+
+.btn-event a:hover {
+  background: var(--red20);
+  color: var(--white);
 }
