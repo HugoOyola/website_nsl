@@ -135,7 +135,6 @@ nav ul {
 }
 
 /* SECTION 01 */
-
 .slide {
   background: url(../images/estudiante_fondo.png);
   background-repeat: no-repeat;
@@ -635,4 +634,72 @@ nav ul {
 .btn-event a:hover {
   background: var(--red20);
   color: var(--white);
+}
+
+/* FOOTER */
+.footer {
+  background: var(--red20);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 516px;
+}
+
+.footer-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background: var(--white);
+}
+
+.footer .social-media-content {
+  padding-bottom: 27px;
+}
+
+.footer-name p {
+  color: var(--red20);
+  font-size: 18px;
+}
+
+.footer-contact a {
+  color: var(--yellow20);
+}
+
+.footer-contact a:hover {
+  color: var(--white);
+}
+
+.footer .tittle {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-contact p {
+  color: var(--white);
+  font-size: 14px;
+  width: 250px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-alumni {
+  background: var(--yellow20);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-alumni a {
+  text-decoration: none;
+  color: var(--red20);
+  font-family: "ArchiaBold", sans-serif;
+  font-size: 18px;
 }
