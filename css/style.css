@@ -238,6 +238,7 @@ nav ul {
   padding-bottom: 57px;
   display: flex;
   justify-content: space-between;
+  height: 200px;
 }
 
 .services-items {
@@ -721,30 +722,32 @@ nav ul {
 
 #carrusel .left-arrow {
   position: absolute;
-  left: 280px;
+  left: 600px;
   z-index: 1;
   top: 50%;
   margin-top: 130px;
-  color: var(--red20);
+  color: var(--white);
   font-size: 42px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 #carrusel .left-arrow:hover {
-  color: var(--red10);
+  color: var(--red20);
 }
 
 #carrusel .right-arrow {
   position: absolute;
-  right: 280px;
+  right: 1px;
   z-index: 1;
   top: 50%;
   margin-top: 130px;
-  color: var(--red20);
+  color: var(--white);
   font-size: 42px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 #carrusel .right-arrow:hover {
-  color: var(--red10);
+  color: var(--red20);
 }
 
 .carrusel {
