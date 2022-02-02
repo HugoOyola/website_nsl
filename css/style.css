@@ -91,6 +91,7 @@ p {
   position: sticky;
   top: 0;
   height: 68px;
+  z-index: 999;
 }
 
 header {
@@ -235,6 +236,8 @@ nav ul {
 .services-content {
   padding-top: 10px;
   padding-bottom: 57px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .services-items {
@@ -703,3 +706,78 @@ nav ul {
   font-family: "ArchiaBold", sans-serif;
   font-size: 18px;
 }
+
+/* CARRUSEL */
+/* ======================================================== */
+#carrusel {
+  float: left;
+  width: 710px;
+  overflow: hidden;
+  height: 400px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#carrusel .left-arrow {
+  position: absolute;
+  left: 280px;
+  z-index: 1;
+  top: 50%;
+  margin-top: 130px;
+  color: var(--red20);
+  font-size: 42px;
+}
+
+#carrusel .left-arrow:hover {
+  color: var(--red10);
+}
+
+#carrusel .right-arrow {
+  position: absolute;
+  right: 280px;
+  z-index: 1;
+  top: 50%;
+  margin-top: 130px;
+  color: var(--red20);
+  font-size: 42px;
+}
+
+#carrusel .right-arrow:hover {
+  color: var(--red10);
+}
+
+.carrusel {
+  width: 4000px;
+  left: 0px;
+  position: absolute;
+  z-index: 0;
+}
+
+.carrusel > div {
+  float: left;
+  height: 293px;
+  margin-right: 16px;
+  width: 225px;
+  text-align: center;
+  background: var(--red20);
+  border-radius: 20px;
+}
+
+.carrusel img {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.carrusel p {
+  color: var(--white);
+  padding: 0 15px;
+}
+
+.box-services {
+  width: 198px;
+}
+
+/* .carrusel img {
+  cursor: pointer;
+} */
