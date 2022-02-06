@@ -150,7 +150,9 @@ nav ul {
 
 .slide-content {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .title {
@@ -161,6 +163,48 @@ nav ul {
   line-height: 70px;
   color: var(--white);
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-slide {
+  background: var(--red20);
+  border-radius: 36px;
+  padding: 32px;
+  width: 384px;
+}
+
+.form-slide p {
+  color: white;
+  padding-bottom: 16px;
+}
+
+input[type="text"],
+[type="email"] {
+  font-family: "ArchiaBold", sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid var(--yellow20);
+  color: var(--white);
+  border-radius: 50px;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: var(--yellow20);
+  font-size: 18px;
+  color: var(--red20);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--yellow10);
 }
 
 /* SECTION 02 */
