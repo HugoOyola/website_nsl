@@ -90,11 +90,10 @@ p {
   background-color: var(--red20);
   position: sticky;
   top: 0;
-  height: 68px;
   z-index: 999;
 }
 
-header {
+/*header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -133,7 +132,7 @@ nav ul {
   color: black;
   background-color: var(--yellow20);
   padding: 20px;
-}
+} */
 
 /* SECTION 01 */
 .slide {
@@ -205,6 +204,10 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: var(--yellow10);
+}
+
+::placeholder {
+  color: var(--white);
 }
 
 /* SECTION 02 */
