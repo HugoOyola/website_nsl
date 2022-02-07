@@ -204,10 +204,15 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: var(--yellow10);
+  color: var(--white);
 }
 
 ::placeholder {
   color: var(--white);
+}
+
+:focus {
+  outline: none;
 }
 
 /* SECTION 02 */
@@ -285,7 +290,7 @@ input[type="submit"]:hover {
   padding-bottom: 57px;
   display: flex;
   justify-content: space-between;
-  height: 200px;
+  height: 250px;
 }
 
 .services-items {
@@ -492,8 +497,7 @@ input[type="submit"]:hover {
 
 .comment {
   width: 358px;
-
-  padding-bottom: 94px;
+  padding-bottom: 44px;
 }
 
 .messages-box02 {
