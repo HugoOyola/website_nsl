@@ -533,13 +533,13 @@ video {
   width: 100%;
   height: auto;
 }
-/* .imagen-slider {
+.imagen-slider {
   height: 445px;
   background: url(../images/estudiante02.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-} */
+}
 
 /* .grado-content {
   display: flex;
