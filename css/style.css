@@ -546,7 +546,8 @@ video {
   height: auto;
 }
 .imagen-slider {
-  height: 540px;
+  height: 535px;
+  margin-bottom: 5px;
   background: url(../images/estudiante02.png);
   background-repeat: no-repeat;
   background-position: center;
