@@ -328,9 +328,24 @@
           </div>
           <div class="messages-box02">
             <div class="messages-box02-content">
-              <div class="imagen-slider"></div>
+              <div id="Study" class="tipoPersona">
+                <video src="./video/video1.mp4" width="100" controls poster="">Tu navegador no admite el elemento <code>video</code>.</video>
+              </div>
+
+              <div id="Teacher" class="tipoPersona" style="display: none">
+                <h2>Profesor</h2>
+                <p>Paris is the capital of France.</p>
+              </div>
+
+              <div id="Personal" class="tipoPersona" style="display: none">
+                <h2>Personal</h2>
+                <p>Tokyo is the capital of Japan.</p>
+              </div>
               <div class="grado-content">
-                <div class="grado-content-box01">
+                <button class="button-study" onclick="openTab('Study')">Estudiante</button>
+                <button class="button-teacher" onclick="openTab('Teacher')">Profesor</button>
+                <button class="button-personal" onclick="openTab('Personal')">Personal</button>
+                <!-- <div class="grado-content-box01">
                   <p>Estudiantes</p>
                 </div>
                 <div class="grado-content-box02">
@@ -338,7 +353,7 @@
                 </div>
                 <div class="grado-content-box03">
                   <p>Personal</p>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

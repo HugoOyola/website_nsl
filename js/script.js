@@ -52,3 +52,12 @@ $(document).ready(function () {
     return false;
   });
 });
+
+function openTab(namePersona) {
+  var i;
+  var x = document.getElementsByClassName("tipoPersona");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(namePersona).style.display = "block";
+}

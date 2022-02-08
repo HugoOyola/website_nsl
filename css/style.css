@@ -476,12 +476,12 @@ input[type="submit"]:hover {
 }
 
 .messages-box01-content h3 {
-  font-size: 32px;
+  font-size: 26px;
   color: var(--red20);
 }
 
 .messages-box01-content .grado-comment {
-  font-size: 32px;
+  font-size: 26px;
   padding-top: 5px;
   color: var(--gray10);
 }
@@ -504,15 +504,44 @@ input[type="submit"]:hover {
   width: 50%;
 }
 
-.imagen-slider {
+.grado-content button {
+  font-family: "Archia", sans-serif;
+  width: 33%;
+  height: 58px;
+  border: none;
+  font-size: 24px;
+  margin: 0%;
+  padding: 0;
+  cursor: pointer;
+}
+
+button.button-study {
+  background: var(--yellow20);
+}
+
+button.button-teacher {
+  background: var(--red20);
+  color: var(--white);
+}
+
+button.button-personal {
+  background: var(--gray30);
+  color: #000;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+/* .imagen-slider {
   height: 445px;
   background: url(../images/estudiante02.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+} */
 
-.grado-content {
+/* .grado-content {
   display: flex;
   height: 58px;
 }
@@ -555,7 +584,7 @@ input[type="submit"]:hover {
 .grado-content-box03 p {
   color: #000;
   font-size: 24px;
-}
+} */
 
 /* SECTION 08 */
 .college {
