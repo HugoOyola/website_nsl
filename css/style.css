@@ -462,7 +462,7 @@ input[type="submit"]:hover {
 
 /* SECTION 07 */
 .messages-content {
-  height: 503px;
+  height: 598px;
   display: flex;
 }
 
@@ -519,9 +519,17 @@ button.button-study {
   background: var(--yellow20);
 }
 
+button.button-study:hover {
+  background: var(--yellow10);
+}
+
 button.button-teacher {
   background: var(--red20);
   color: var(--white);
+}
+
+button.button-teacher:hover {
+  background: var(--red10);
 }
 
 button.button-personal {
@@ -529,12 +537,16 @@ button.button-personal {
   color: #000;
 }
 
+button.button-personal:hover {
+  background: var(--gray20);
+}
+
 video {
   width: 100%;
   height: auto;
 }
 .imagen-slider {
-  height: 445px;
+  height: 540px;
   background: url(../images/estudiante02.png);
   background-repeat: no-repeat;
   background-position: center;
