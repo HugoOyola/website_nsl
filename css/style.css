@@ -55,7 +55,7 @@ p {
 
 /* SOCIAL MEDIA - SLOGAN */
 .social-media-content {
-  height: 64px;
+  height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,15 +64,15 @@ p {
 .social-media-content li {
   position: relative;
   display: inline-block;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 .social {
-  margin: 14px 0 14px 0;
+  margin: 4px 0 4px 0;
 }
 
 .social a {
-  padding-right: 21px;
+  padding-right: 5px;
   color: var(--red20);
 }
 
@@ -81,7 +81,7 @@ p {
 }
 
 .slogan {
-  font-size: 18px;
+  font-size: 12px;
   color: #000;
 }
 
@@ -134,7 +134,7 @@ nav ul {
   padding: 20px;
 } */
 
-/* SECTION 01 */
+/* PRINCIPAL */
 .slide {
   background: url(../images/estudiante_fondo.png);
   background-repeat: no-repeat;
@@ -147,19 +147,13 @@ nav ul {
   height: 540px;
 }
 
-.slide-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
 .title {
   font-family: "ArchiaBold", sans-serif;
-  width: 564px;
+  width: 200px;
   font-weight: bold;
-  font-size: 72px;
-  line-height: 70px;
+  font-size: 32px;
+  line-height: 40px;
+  padding: 10px 0 10px 0;
   color: var(--white);
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -168,7 +162,7 @@ nav ul {
   background: var(--red20);
   border-radius: 36px;
   padding: 32px;
-  width: 384px;
+  width: 100%;
 }
 
 .form-slide p {
@@ -180,8 +174,8 @@ input[type="text"],
 [type="email"] {
   font-family: "ArchiaBold", sans-serif;
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 5px 5px;
+  margin: 6px 0;
   display: inline-block;
   border: 1px solid var(--yellow20);
   color: var(--white);
@@ -193,9 +187,9 @@ input[type="text"],
 input[type="submit"] {
   width: 100%;
   background-color: var(--yellow20);
-  font-size: 18px;
+  font-size: 14px;
   color: var(--red20);
-  padding: 14px 20px;
+  padding: 10px 10px;
   margin: 8px 0;
   border: none;
   border-radius: 50px;
@@ -223,96 +217,100 @@ input[type="submit"]:hover {
 
 .box-inicial {
   background: var(--yellow20);
-  height: 209px;
+  height: 130px;
   width: 33.33%;
-  border-bottom-left-radius: 50px;
+  border-bottom-left-radius: 20px;
 }
 
 .box-inicial img {
+  width: 25%;
   padding-top: 24px;
 }
 
 .box-inicial p {
   font-family: "ArchiaBold", sans-serif;
-  font-size: 30px;
+  font-size: 18px;
   padding-top: 10px;
   color: var(--yellow10);
 }
 
 .box-primaria {
   background: var(--red20);
-  height: 209px;
+  height: 130px;
   width: 33.33%;
 }
 
 .box-primaria img {
+  width: 25%;
   padding-top: 24px;
 }
 
 .box-primaria p {
   font-family: "ArchiaBold", sans-serif;
-  font-size: 30px;
+  font-size: 18px;
   padding-top: 10px;
   color: var(--red10);
 }
 
 .box-secundaria {
   background: var(--gray30);
-  height: 209px;
+  height: 130px;
   width: 33.33%;
-  border-bottom-right-radius: 50px;
+  border-bottom-right-radius: 20px;
 }
 
 .box-secundaria img {
+  width: 35%;
   padding-top: 24px;
 }
 
 .box-secundaria p {
   font-family: "ArchiaBold", sans-serif;
-  font-size: 30px;
+  font-size: 18px;
   padding-top: 10px;
   color: var(--gray20);
 }
 
-/* SECTION 03 */
+/* QUIENES SOMOS*/
 .about-content {
-  padding-top: 58px;
-  padding-bottom: 149px;
+  padding-top: 48px;
+  padding-bottom: 50px;
 }
 
 .about-content p {
-  padding-top: 49px;
+  padding-top: 30px;
 }
 
-/* SECTION 04 */
+/* SERVICIOS */
 .services-content {
   padding-top: 10px;
   padding-bottom: 57px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   height: 250px;
 }
 
 .services-items {
-  width: 253px;
+  width: 100%;
 }
 
 .services-content h2 {
   padding-bottom: 24px;
 }
 
-/* SECTION 05*/
+/* FILOSOFIA*/
 .filosofia {
-  padding-top: 149px;
+  padding-top: 370px;
   padding-bottom: 37px;
   background: var(--gray40);
 }
 
 .filosofia-content p {
-  width: 800px;
+  width: 100%;
 }
 
-/* SECTION 06 */
+/* BENEFICIOS */
 .benefit {
   background: var(--gray40);
 }
@@ -882,6 +880,183 @@ video {
   width: 198px;
 }
 
-/* .carrusel img {
-  cursor: pointer;
-} */
+/* RESPONSIVE */
+@media (min-width: 600px) {
+  h2 {
+    font-family: "ArchiaBold", sans-serif;
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .wrapper {
+    max-inline-size: 1059px;
+    margin: auto;
+    padding: 0 15px;
+  }
+
+  .social-media-content {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social-media-content li {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+  }
+
+  .social {
+    margin: 14px 0 14px 0;
+  }
+
+  .social a {
+    padding-right: 21px;
+  }
+
+  .social a:hover {
+  }
+
+  .slogan {
+    font-size: 18px;
+  }
+
+  .slide-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .title {
+    font-family: "ArchiaBold", sans-serif;
+    width: 564px;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 70px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .form-slide {
+    border-radius: 36px;
+    padding: 32px;
+    width: 384px;
+  }
+
+  .form-slide p {
+    padding-bottom: 16px;
+  }
+
+  input[type="text"],
+  [type="email"] {
+    font-family: "ArchiaBold", sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background: transparent;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    font-size: 18px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .niveles-content {
+    display: flex;
+    text-align: center;
+  }
+
+  .box-inicial {
+    height: 209px;
+    width: 33.33%;
+    border-bottom-left-radius: 50px;
+  }
+
+  .box-inicial img {
+    padding-top: 24px;
+  }
+
+  .box-inicial p {
+    font-family: "ArchiaBold", sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .box-primaria {
+    height: 209px;
+    width: 33.33%;
+  }
+
+  .box-primaria img {
+    padding-top: 24px;
+  }
+
+  .box-primaria p {
+    font-family: "ArchiaBold", sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .box-secundaria {
+    height: 209px;
+    width: 33.33%;
+    border-bottom-right-radius: 50px;
+  }
+
+  .box-secundaria img {
+    padding-top: 24px;
+  }
+
+  .box-secundaria p {
+    font-family: "ArchiaBold", sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .about-content {
+    padding-top: 58px;
+    padding-bottom: 149px;
+  }
+
+  .about-content p {
+    padding-top: 49px;
+  }
+
+  .services-content {
+    padding-top: 10px;
+    padding-bottom: 57px;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+  }
+
+  .services-items {
+    width: 253px;
+  }
+
+  .services-content h2 {
+    padding-bottom: 24px;
+  }
+
+  .filosofia {
+    padding-top: 149px;
+    padding-bottom: 37px;
+  }
+
+  .filosofia-content p {
+    width: 800px;
+  }
+}

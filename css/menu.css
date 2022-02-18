@@ -249,3 +249,14 @@ Mobile style's
     display: block;
   }
 }
+/* ========================== */
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .menu img {
+    min-width: 350%;
+  }
+
+  .clearfix .image-menu {
+    display: none;
+  }
+}
