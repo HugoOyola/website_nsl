@@ -327,7 +327,7 @@ input[type="submit"]:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .row-item {
@@ -337,7 +337,7 @@ input[type="submit"]:hover {
   justify-content: center;
   background: var(--white);
   border-radius: 15px;
-  width: 233px;
+  width: 164px;
   height: 165px;
   margin-bottom: 36px;
 }
@@ -352,18 +352,19 @@ input[type="submit"]:hover {
   color: var(--red20);
 }
 
-/* SECTION 05 */
+/* BANNER */
 .banner-content {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
 }
 
 .banner-content p {
-  font-size: 24px;
+  font-size: 18px;
   font-family: "ArchiaBold", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 7px;
+  letter-spacing: 10px;
 }
 
 .banner-content-box01 {
@@ -372,8 +373,8 @@ input[type="submit"]:hover {
   align-items: center;
   justify-content: center;
   background: var(--yellow20);
-  width: 33.33%;
-  height: 58px;
+  width: 100%;
+  height: 28px;
 }
 
 .banner-content-box01 p {
@@ -386,8 +387,8 @@ input[type="submit"]:hover {
   align-items: center;
   justify-content: center;
   background: var(--red20);
-  width: 33.33%;
-  height: 58px;
+  width: 100%;
+  height: 28px;
 }
 
 .banner-content-box02 p {
@@ -400,8 +401,8 @@ input[type="submit"]:hover {
   align-items: center;
   justify-content: center;
   background: var(--gray30);
-  width: 33.33%;
-  height: 58px;
+  width: 100%;
+  height: 28px;
 }
 
 .banner-content-box03 p {
@@ -458,7 +459,7 @@ input[type="submit"]:hover {
   border-bottom: 1px solid var(--gray10);
 }
 
-/* SECTION 07 */
+/* CURSOS COMPLEMENTARIOS */
 .messages-content {
   height: 598px;
   display: flex;
@@ -881,7 +882,7 @@ video {
 }
 
 /* RESPONSIVE */
-@media (min-width: 600px) {
+@media (min-width: 720px) {
   h2 {
     font-family: "ArchiaBold", sans-serif;
     font-size: 32px;
@@ -1058,5 +1059,138 @@ video {
 
   .filosofia-content p {
     width: 800px;
+  }
+
+  .row {
+    padding-bottom: 80px;
+  }
+
+  .row-item {
+    width: 233px;
+  }
+
+  .banner-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .banner-content p {
+    font-size: 24px;
+    font-family: "ArchiaBold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+  }
+
+  .banner-content-box01 {
+    width: 33.33%;
+    height: 58px;
+  }
+
+  .banner-content-box02 {
+    width: 33.33%;
+    height: 58px;
+  }
+
+  .banner-content-box02 p {
+    color: white;
+  }
+
+  .banner-content-box03 {
+    width: 33.33%;
+    height: 58px;
+  }
+
+  .messages-content {
+    height: 598px;
+    display: flex;
+  }
+
+  .messages-box01 {
+    width: 50%;
+  }
+
+  .messages-box01-content {
+    width: 400px;
+    padding-left: 25%;
+  }
+
+  .messages-box01-content h3 {
+    font-size: 26px;
+    color: var(--red20);
+  }
+
+  .messages-box01-content .grado-comment {
+    font-size: 26px;
+    padding-top: 5px;
+    color: var(--gray10);
+  }
+
+  .messages-box01 img {
+    padding-top: 56px;
+    padding-bottom: 30px;
+  }
+
+  .messages-box01 p {
+    font-size: 16px;
+  }
+
+  .comment {
+    width: 358px;
+    padding-bottom: 44px;
+  }
+
+  .messages-box02 {
+    width: 50%;
+  }
+
+  .grado-content button {
+    font-family: "Archia", sans-serif;
+    width: 33%;
+    height: 58px;
+    border: none;
+    font-size: 24px;
+    margin: 0%;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  button.button-study {
+    background: var(--yellow20);
+  }
+
+  button.button-study:hover {
+    background: var(--yellow10);
+  }
+
+  button.button-teacher {
+    background: var(--red20);
+    color: var(--white);
+  }
+
+  button.button-teacher:hover {
+    background: var(--red10);
+  }
+
+  button.button-personal {
+    background: var(--gray30);
+    color: #000;
+  }
+
+  button.button-personal:hover {
+    background: var(--gray20);
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+  .imagen-slider {
+    height: 535px;
+    margin-bottom: 5px;
+    background: url(../images/estudiante02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
