@@ -1164,6 +1164,14 @@ input[type="submit"]:hover {
     color: var(--red20);
     font-size: 18px;
   }
+
+  .galeria {
+    height: 520px;
+    background: url(../images/fotos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 @media (max-width: 720px) {
