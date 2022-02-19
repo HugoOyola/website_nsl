@@ -409,37 +409,21 @@ input[type="submit"]:hover {
   color: #000;
 }
 
-/* SECTION 06 */
+/* CURSOS COMPLEMENTARIOS */
 .cursos-content {
   display: flex;
   flex-wrap: wrap;
-}
-
-.cursos-content-items01 {
-  background: url(../images/estudiante.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 50%;
-}
-
-.cursos-content-items02 {
-  width: 50%;
-}
-
-.box-items02 {
-  width: 500px;
+  border-bottom: 1px solid var(--gray10);
 }
 
 .cursos-content-items02 img {
-  padding-top: 70px;
-  padding-left: 87px;
+  padding: 30px 50px 10px 50px;
 }
 
 .cursos-content-items02 h2 {
-  width: 298px;
-  padding-left: 87px;
-  font-size: 32px;
+  width: 100%;
+  padding: 0 50px;
+  font-size: 26px;
 }
 
 .cursos-content-items02 ul {
@@ -459,34 +443,30 @@ input[type="submit"]:hover {
   border-bottom: 1px solid var(--gray10);
 }
 
-/* CURSOS COMPLEMENTARIOS */
+/* COMENTARIOS */
 .messages-content {
-  height: 598px;
+  height: 498px;
   display: flex;
 }
 
-.messages-box01 {
-  width: 50%;
-}
-
 .messages-box01-content {
-  width: 400px;
-  padding-left: 25%;
+  width: 100%;
+  padding: 20px;
 }
 
 .messages-box01-content h3 {
-  font-size: 26px;
+  font-size: 24px;
   color: var(--red20);
 }
 
 .messages-box01-content .grado-comment {
-  font-size: 26px;
+  font-size: 18px;
   padding-top: 5px;
   color: var(--gray10);
 }
 
 .messages-box01 img {
-  padding-top: 56px;
+  padding-top: 36px;
   padding-bottom: 30px;
 }
 
@@ -495,62 +475,8 @@ input[type="submit"]:hover {
 }
 
 .comment {
-  width: 358px;
-  padding-bottom: 44px;
-}
-
-.messages-box02 {
-  width: 50%;
-}
-
-.grado-content button {
-  font-family: "Archia", sans-serif;
-  width: 33%;
-  height: 58px;
-  border: none;
-  font-size: 24px;
-  margin: 0%;
-  padding: 0;
-  cursor: pointer;
-}
-
-button.button-study {
-  background: var(--yellow20);
-}
-
-button.button-study:hover {
-  background: var(--yellow10);
-}
-
-button.button-teacher {
-  background: var(--red20);
-  color: var(--white);
-}
-
-button.button-teacher:hover {
-  background: var(--red10);
-}
-
-button.button-personal {
-  background: var(--gray30);
-  color: #000;
-}
-
-button.button-personal:hover {
-  background: var(--gray20);
-}
-
-video {
   width: 100%;
-  height: auto;
-}
-.imagen-slider {
-  height: 535px;
-  margin-bottom: 5px;
-  background: url(../images/estudiante02.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  padding-bottom: 44px;
 }
 
 /* .grado-content {
@@ -598,7 +524,7 @@ video {
   font-size: 24px;
 } */
 
-/* SECTION 08 */
+/* CARACTERISTICAS */
 .college {
   height: 433px;
   background: var(--red20);
@@ -767,7 +693,7 @@ video {
 
 .footer-name p {
   color: var(--red20);
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .footer-contact a {
@@ -1092,13 +1018,53 @@ video {
     height: 58px;
   }
 
-  .banner-content-box02 p {
-    color: white;
-  }
-
   .banner-content-box03 {
     width: 33.33%;
     height: 58px;
+  }
+
+  .cursos-content-items01 {
+    background: url(../images/estudiante.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+  }
+
+  .cursos-content-items02 {
+    width: 50%;
+  }
+
+  .box-items02 {
+    width: 500px;
+  }
+
+  .cursos-content-items02 img {
+    padding-top: 70px;
+    padding-left: 87px;
+  }
+
+  .cursos-content-items02 h2 {
+    width: 298px;
+    padding-left: 87px;
+    font-size: 32px;
+  }
+
+  .cursos-content-items02 ul {
+    list-style: square url(../images/icon/check.svg) inside;
+    padding-top: 32px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 86px;
+    color: var(--gray10);
+  }
+
+  .cursos-content-items02 li::marker {
+    font-size: 2rem;
+  }
+
+  .cursos-content-items02 li {
+    border-bottom: 1px solid var(--gray10);
   }
 
   .messages-content {
@@ -1192,5 +1158,16 @@ video {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+
+  .footer-name p {
+    color: var(--red20);
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 720px) {
+  .hidden {
+    display: none;
   }
 }
