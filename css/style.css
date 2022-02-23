@@ -807,6 +807,48 @@ input[type="submit"]:hover {
   width: 198px;
 }
 
+/* HISTORIA WEB */
+.background {
+  background: url(../images/header/historia.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 441px;
+}
+
+.background-content .title {
+  padding-top: 150px;
+}
+
+.information {
+  background-color: var(--red20);
+  height: 463px;
+}
+
+.information .information-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information .information-content .mision {
+  width: 50%;
+}
+
+.information .information-content .vision {
+  width: 50%;
+}
+
+.information .information-content h2 {
+  padding-top: 45px;
+  color: var(--yellow20);
+}
+
+.information .information-content p {
+  padding-top: 33px;
+  color: var(--white);
+  width: 394px;
+}
+
 /* RESPONSIVE */
 @media (min-width: 720px) {
   h2 {
@@ -844,9 +886,6 @@ input[type="submit"]:hover {
 
   .social a {
     padding-right: 21px;
-  }
-
-  .social a:hover {
   }
 
   .slogan {
