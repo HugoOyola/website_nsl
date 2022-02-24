@@ -282,8 +282,11 @@ input[type="submit"]:hover {
 }
 
 /* SERVICIOS */
+.services {
+  padding-top: 100px;
+}
+
 .services-content {
-  padding-top: 10px;
   padding-bottom: 57px;
   display: flex;
   flex-wrap: wrap;
@@ -994,7 +997,7 @@ input[type="submit"]:hover {
 
   .about-content {
     padding-top: 58px;
-    padding-bottom: 149px;
+    padding-bottom: 49px;
   }
 
   .about-content p {
@@ -1107,7 +1110,7 @@ input[type="submit"]:hover {
   }
 
   .messages-content {
-    height: 598px;
+    height: 503px;
     display: flex;
   }
 
@@ -1121,6 +1124,7 @@ input[type="submit"]:hover {
   }
 
   .messages-box01-content h3 {
+    width: 251px;
     font-size: 26px;
     color: var(--red20);
   }
@@ -1128,6 +1132,7 @@ input[type="submit"]:hover {
   .messages-box01-content .grado-comment {
     font-size: 26px;
     padding-top: 5px;
+    width: 251px;
     color: var(--gray10);
   }
 
@@ -1149,7 +1154,7 @@ input[type="submit"]:hover {
     width: 50%;
   }
 
-  .grado-content button {
+  /* .grado-content button {
     font-family: "Archia", sans-serif;
     width: 33%;
     height: 58px;
@@ -1189,10 +1194,56 @@ input[type="submit"]:hover {
   video {
     width: 100%;
     height: auto;
+  } */
+
+  .grado-content {
+    display: flex;
+    height: 58px;
   }
+
+  .grado-content-box01 {
+    background: var(--yellow20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    height: 100%;
+  }
+
+  .grado-content-box01 p {
+    color: #000;
+    font-size: 24px;
+  }
+
+  .grado-content-box02 {
+    background: var(--red20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+  }
+
+  .grado-content-box02 p {
+    color: var(--white);
+    font-size: 24px;
+  }
+
+  .grado-content-box03 {
+    background: var(--gray30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+  }
+
+  .grado-content-box03 p {
+    color: #000;
+    font-size: 24px;
+  }
+
   .imagen-slider {
-    height: 535px;
-    margin-bottom: 5px;
+    height: 445px;
+    /* margin-bottom: 5px; */
     background: url(../images/estudiante02.png);
     background-repeat: no-repeat;
     background-position: center;
