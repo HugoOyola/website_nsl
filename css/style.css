@@ -1026,16 +1026,13 @@ input[type="submit"]:hover {
 
 /* ADMISION */
 .admision {
-  height: 355px;
+  height: 385px;
   background: var(--red20);
-}
-
-.admision-content {
 }
 
 .admision .barra {
   width: 100%;
-  height: 27px;
+  height: 14px;
   background: url(../images/barra.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1048,6 +1045,9 @@ input[type="submit"]:hover {
   align-items: center;
   font-size: 72px;
   color: var(--white);
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-family: "ArchiaBold", sans-serif;
 }
 
 .pasos-image {
@@ -1058,6 +1058,31 @@ input[type="submit"]:hover {
 
 .pasos-image p {
   color: var(--white);
+}
+
+.proceso-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 265px;
+  margin-bottom: 70px;
+}
+
+.proceso-box p {
+  padding-left: 25px;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.barra .circle {
+  background-color: var(--white);
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
 }
 
 /* RESPONSIVE */
