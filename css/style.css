@@ -1024,6 +1024,42 @@ input[type="submit"]:hover {
   text-align: justify;
 }
 
+/* ADMISION */
+.admision {
+  height: 355px;
+  background: var(--red20);
+}
+
+.admision-content {
+}
+
+.admision .barra {
+  width: 100%;
+  height: 27px;
+  background: url(../images/barra.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.admision .pasos-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 72px;
+  color: var(--white);
+}
+
+.pasos-image {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+
+.pasos-image p {
+  color: var(--white);
+}
+
 /* RESPONSIVE */
 @media (min-width: 720px) {
   h2 {
