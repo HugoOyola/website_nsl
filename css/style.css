@@ -78,6 +78,7 @@ p {
 
 .social a:hover {
   color: var(--red10);
+  transition: all 0.5s ease-in-out;
 }
 
 .slogan {
@@ -199,6 +200,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: var(--yellow10);
   color: var(--white);
+  transition: all 0.5s ease-in-out;
 }
 
 ::placeholder {
@@ -633,6 +635,7 @@ input[type="submit"]:hover {
   padding: 8px 15px;
   border-radius: 50px;
   color: var(--white);
+  transition: all 0.5s ease-in-out;
 }
 .row-events h3 {
   color: var(--red20);
@@ -667,6 +670,7 @@ input[type="submit"]:hover {
 .btn-event a:hover {
   background: var(--red20);
   color: var(--white);
+  transition: all 0.5s ease-in-out;
 }
 
 /* FOOTER */
@@ -816,7 +820,7 @@ input[type="submit"]:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 441px;
+  height: 641px;
 }
 
 .background-content .title {
@@ -862,6 +866,162 @@ input[type="submit"]:hover {
 
 .about-historia h2 {
   padding-bottom: 49px;
+}
+
+/* ACADÉMICA */
+.subtitle-header-content h2 {
+  margin-top: 59px;
+  margin-bottom: 29px;
+}
+
+.subtitle-header-content p {
+  margin-bottom: 89px;
+}
+
+.inicial {
+  height: 444px;
+  background-color: var(--yellow20);
+  display: flex;
+  align-items: center;
+}
+
+.inicial .image-inicial {
+  width: 50%;
+  height: 444px;
+  background: url(../images/academica/inicial_foto.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.inicial .text-inicial {
+  width: 50%;
+}
+
+.inicial .text-inicial h3 {
+  width: 443px;
+  color: var(--red20);
+  font-family: "ArchiaBold", sans-serif;
+  font-size: 34px;
+  margin-left: 77px;
+  margin-bottom: 68px;
+}
+
+.inicial .text-inicial p {
+  width: 443px;
+  color: #000;
+  margin-left: 77px;
+  text-align: justify;
+}
+
+.text .text-content {
+  margin-top: 68px;
+  margin-bottom: 68px;
+  text-align: justify;
+}
+
+.text .text-content .list-inicial {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: var(--gray10);
+}
+
+.text .text-content .list-inicial ul {
+  list-style: none;
+  margin-top: 38px;
+  margin-bottom: 28px;
+  margin-left: 20px;
+}
+
+.text .text-content .list-inicial ul li::before {
+  content: "\2022";
+  color: var(--red20);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.primaria {
+  height: 444px;
+  background-color: var(--red20);
+  display: flex;
+  align-items: center;
+}
+
+.primaria .text-primaria {
+  width: 50%;
+  direction: rtl;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-right: 77px;
+}
+.primaria .image-primaria {
+  width: 50%;
+  height: 444px;
+  background: url(../images/academica/primaria_foto.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.primaria .text-primaria h3 {
+  width: 443px;
+  text-align: left;
+  color: var(--yellow20);
+  font-family: "ArchiaBold", sans-serif;
+  font-size: 34px;
+  margin-bottom: 68px;
+}
+
+.primaria .text-primaria p {
+  width: 443px;
+  color: var(--white);
+  text-align: justify;
+}
+
+.text .text-content {
+  margin-top: 68px;
+  margin-bottom: 68px;
+  text-align: justify;
+}
+
+.secundaria {
+  height: 444px;
+  background-color: var(--gray30);
+  display: flex;
+  align-items: center;
+}
+
+.secundaria .image-secundaria {
+  width: 50%;
+  height: 444px;
+  background: url(../images/academica/secundaria_foto.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.secundaria .text-secundaria {
+  width: 50%;
+}
+
+.secundaria .text-secundaria h3 {
+  width: 443px;
+  color: var(--red20);
+  font-family: "ArchiaBold", sans-serif;
+  font-size: 34px;
+  margin-left: 77px;
+  margin-bottom: 68px;
+}
+
+.secundaria .text-secundaria p {
+  width: 443px;
+  color: #000;
+  margin-left: 77px;
+  text-align: justify;
 }
 
 /* RESPONSIVE */
