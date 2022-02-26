@@ -1026,7 +1026,7 @@ input[type="submit"]:hover {
 
 /* ADMISION */
 .admision {
-  height: 385px;
+  height: 535px;
   background: var(--red20);
 }
 
@@ -1045,15 +1045,15 @@ input[type="submit"]:hover {
   align-items: center;
   font-size: 72px;
   color: var(--white);
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
   font-family: "ArchiaBold", sans-serif;
 }
 
 .pasos-image {
   display: flex;
   justify-content: space-between;
-  padding-top: 35px;
+  padding-top: 45px;
 }
 
 .pasos-image p {
@@ -1066,6 +1066,7 @@ input[type="submit"]:hover {
   align-items: center;
   width: 265px;
   margin-bottom: 70px;
+  margin-top: 50px;
 }
 
 .proceso-box p {
