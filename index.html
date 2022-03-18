@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hugo Oyola Yarlaque" />
+    <meta name="copyright" content="Hugo Developer" />
     <meta name="description" content="Colegio Particular 'Nuestra Señora de Lourdes'" />
     <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png" />
@@ -101,9 +103,11 @@
                   <li>
                     <h3>Ultimas Noticias</h3>
                     <ul>
-                      <li><a href="#">Estudiante Jaime Cardenas ganó el concurso......</a></li>
-                      <li><a href="#">Estudiante Jaime Cardenas ganó el concurso......</a></li>
-                      <li><a href="#">Estudiante Jaime Cardenas ganó el concurso......</a></li>
+                      <li>
+                        <a href="#"><strong>Inicio de Clases: </strong></a>
+                      </li>
+                      <li><a href="#">Inicial: 14 de marzo</a></li>
+                      <li><a href="#">Primaria y Secundaria: 10 de marzo</a></li>
                     </ul>
                   </li>
                   <li>
@@ -177,9 +181,11 @@
                   <li>
                     <h3>Ultimas Noticias</h3>
                     <ul>
-                      <li><a href="#">Estudiante Jaime Cardenas ganó el concurso......</a></li>
-                      <li><a href="#">Estudiante Jaime Cardenas ganó el concurso......</a></li>
-                      <li><a href="#">Estudiante Jaime Cardenas ganó el concurso......</a></li>
+                      <li>
+                        <a href="#"><strong>Inicio de Clases: </strong></a>
+                      </li>
+                      <li><a href="#">Inicial: 14 de marzo</a></li>
+                      <li><a href="#">Primaria y Secundaria: 10 de marzo</a></li>
                     </ul>
                   </li>
                   <li>
@@ -205,9 +211,11 @@
                   <li>
                     <h3>Ultimas Noticias</h3>
                     <ul>
-                      <li><a href="#">Estudiante Jaime Cardenas ganó el concurso......</a></li>
-                      <li><a href="#">Estudiante Jaime Cardenas ganó el concurso......</a></li>
-                      <li><a href="#">Estudiante Jaime Cardenas ganó el concurso......</a></li>
+                      <li>
+                        <a href="#"><strong>Inicio de Clases: </strong></a>
+                      </li>
+                      <li><a href="#">Inicial: 14 de marzo</a></li>
+                      <li><a href="#">Primaria y Secundaria: 10 de marzo</a></li>
                     </ul>
                   </li>
                   <li>
@@ -218,13 +226,13 @@
                 </ul>
               </li>
               <li>
-                <a href="#">Estudiante</a>
+                <a href="./estudiante.html">Estudiante</a>
                 <ul>
                   <li>
                     <ul>
-                      <li><a href="#">Testimonios de Alumnos</a></li>
-                      <li><a href="#">Ex-alumnos</a></li>
-                      <li><a href="#">Docentes</a></li>
+                      <li><a href="./estudiante.html">Testimonios de Alumnos</a></li>
+                      <li><a href="./estudiante.html">Ex-alumnos</a></li>
+                      <li><a href="./estudiante.html">Docentes</a></li>
                       <li>
                         <a href="#"><i class="fas fa-file-invoice"></i> Brochure</a>
                       </li>
@@ -233,9 +241,11 @@
                   <li>
                     <h3>Ultimas Noticias</h3>
                     <ul>
-                      <li><a href="#">Estudiante Jaime Cardenas ganó el concurso......</a></li>
-                      <li><a href="#">Estudiante Jaime Cardenas ganó el concurso......</a></li>
-                      <li><a href="#">Estudiante Jaime Cardenas ganó el concurso......</a></li>
+                      <li>
+                        <a href="#"><strong>Inicio de Clases: </strong></a>
+                      </li>
+                      <li><a href="#">Inicial: 14 de marzo</a></li>
+                      <li><a href="#">Primaria y Secundaria: 10 de marzo</a></li>
                     </ul>
                   </li>
                   <li>
@@ -246,7 +256,7 @@
                 </ul>
               </li>
               <li>
-                <a href="">Servicios</a>
+                <a href="#services">Servicios</a>
                 <!-- <ul>
                   <li>
                     <ul>
@@ -446,9 +456,9 @@
           </div>
         </div>
       </section>
-      <section class="messages">
+      <section class="messages hidden">
         <div class="messages-content">
-          <div class="messages-box01">
+          <div class="messages-box01 hidden">
             <div class="messages-box01-content">
               <img src="./images/comillas.svg" alt="" />
               <p class="comment">Me siento orgullosa de NSL porque nos enseña a los estudiantes los valores más importantes para llegar lejos en la vida.</p>
@@ -461,22 +471,23 @@
           </div>
           <div class="messages-box02 hidden">
             <div class="messages-box02-content">
-              <div class="imagen-slider"></div>
-              <!-- <div id="Study" class="tipoPersona">
-                <video src="./video/video1.mp4" controls poster="">Tu navegador no admite el elemento <code>video</code>.</video>
+              <!-- <div class="imagen-slider"></div> -->
+              <div id="Study" class="tipoPersona">
+                <!-- <video src="./video/video1.mp4" controls poster="">Tu navegador no admite el elemento <code>video</code>.</video> -->
+                <div class="imagen-slider"></div>
               </div>
               <div id="Teacher" class="tipoPersona" style="display: none">
-                <div class="imagen-slider"></div>
+                <div class="imagen-personal-slider"></div>
               </div>
               <div id="Personal" class="tipoPersona" style="display: none">
-                <div class="imagen-slider"></div>
+                <div class="imagen-personal-slider"></div>
               </div>
               <div class="grado-content">
                 <button class="button-study" onclick="openTab('Study')">Estudiante</button>
                 <button class="button-teacher" onclick="openTab('Teacher')">Profesor</button>
-                <button class="button-personal" onclick="openTab('Personal')">Personal</button> -->
-              <!-- </div> -->
-              <div class="grado-content">
+                <button class="button-personal" onclick="openTab('Personal')">Personal</button>
+              </div>
+              <!-- <div class="grado-content">
                 <div class="grado-content-box01">
                   <p>Estudiantes</p>
                 </div>
@@ -486,7 +497,7 @@
                 <div class="grado-content-box03">
                   <p>Personal</p>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -531,7 +542,7 @@
               <h2>Eventos</h2>
               <p class="subtittle">Los mejores eventos para desarrollarte en tu profesión antes de ingresar a la universidad. Así serás la diferencia antes de egresar.</p>
               <div class="button">
-                <a href="#">Ir a eventos <i class="far fa-arrow-right"></i></a>
+                <a href="./eventos.html">Ir a eventos <i class="far fa-arrow-right"></i></a>
               </div>
             </div>
             <div class="row-events hidden">

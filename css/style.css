@@ -820,7 +820,7 @@ input[type="submit"]:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 641px;
+  height: 341px;
 }
 
 .background-content .title {
@@ -829,20 +829,13 @@ input[type="submit"]:hover {
 
 .information {
   background-color: var(--red20);
-  height: 463px;
+  height: 663px;
 }
 
 .information .information-content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.information .information-content .mision {
-  width: 50%;
-}
-
-.information .information-content .vision {
-  width: 50%;
 }
 
 .information .information-content h2 {
@@ -858,13 +851,14 @@ input[type="submit"]:hover {
 
 .about-historia {
   width: 100%;
-  height: 381px;
+  height: 732px;
   background-color: var(--gray40);
   display: flex;
   align-items: center;
 }
 
 .about-historia h2 {
+  padding-top: 20px;
   padding-bottom: 49px;
 }
 
@@ -879,6 +873,7 @@ input[type="submit"]:hover {
 }
 
 .inicial {
+  width: 100%;
   height: 444px;
   background-color: var(--yellow20);
   display: flex;
@@ -1026,7 +1021,7 @@ input[type="submit"]:hover {
 
 /* ADMISION */
 .admision {
-  height: 535px;
+  height: 835px;
   background: var(--red20);
 }
 
@@ -1052,7 +1047,8 @@ input[type="submit"]:hover {
 
 .pasos-image {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   padding-top: 45px;
 }
 
@@ -1084,6 +1080,48 @@ input[type="submit"]:hover {
   width: 30px;
   height: 30px;
   border-radius: 50px;
+}
+
+/* EVENTOS */
+.w50 {
+  width: 100%;
+}
+
+.events-post {
+  background-color: var(--gray40);
+}
+
+.events-post-content .row-post {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 86px;
+  padding-bottom: 40px;
+}
+
+.post-image {
+  margin-bottom: 46px;
+}
+
+/* ESTUDIANTE */
+.estudiante-post {
+  padding-bottom: 30px;
+}
+
+.estudiante-post-content .row-video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.post-video {
+  width: 44%;
+  padding-bottom: 40px;
+}
+
+video {
+  width: 100%;
+  height: auto;
 }
 
 /* RESPONSIVE */
@@ -1388,7 +1426,7 @@ input[type="submit"]:hover {
     width: 50%;
   }
 
-  /* .grado-content button {
+  .grado-content button {
     font-family: "Archia", sans-serif;
     width: 33%;
     height: 58px;
@@ -1428,7 +1466,7 @@ input[type="submit"]:hover {
   video {
     width: 100%;
     height: auto;
-  } */
+  }
 
   .grado-content {
     display: flex;
@@ -1484,6 +1522,15 @@ input[type="submit"]:hover {
     background-size: cover;
   }
 
+  .imagen-personal-slider {
+    height: 445px;
+    /* margin-bottom: 5px; */
+    background: url(../images/personal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
   .footer-name p {
     color: var(--red20);
     font-size: 18px;
@@ -1503,6 +1550,42 @@ input[type="submit"]:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+
+  .about-historia {
+    height: 381px;
+  }
+
+  .background {
+    height: 641px;
+  }
+
+  .information {
+    height: 463px;
+  }
+
+  .information .information-content .mision {
+    width: 50%;
+  }
+
+  .information .information-content .vision {
+    width: 50%;
+  }
+
+  .admision {
+    height: 535px;
+  }
+
+  .pasos-image {
+    justify-content: space-between;
+  }
+
+  .w50 {
+    width: 50%;
+  }
+
+  .events-post-content .row-post {
+    justify-content: space-between;
   }
 }
 
